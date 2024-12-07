@@ -1,0 +1,332 @@
+2024-06-03 19:03:15.788970
+RandomForest - Adult
+
+Log Loss - mean: 0.30051
+Log Loss - std: 0.00664
+AUC - mean: 0.91738
+AUC - std: 0.00488
+Accuracy - mean: 0.86198
+Accuracy - std: 0.00502
+F1 score - mean: 0.86198
+F1 score - std: 0.00502
+
+Train time: 1.643131
+Test time: 0.070538
+
+Best Parameters: {'max_depth': 12, 'n_estimators': 85}
+
+
+Train energy: 21033063.800000
+Test energy: 2596990.200000
+
+
+
+2024-06-03 19:03:23.622945
+LinearModel - Adult
+
+Log Loss - mean: 0.38439
+Log Loss - std: 0.00593
+AUC - mean: 0.85339
+AUC - std: 0.00470
+Accuracy - mean: 0.82402
+Accuracy - std: 0.00381
+F1 score - mean: 0.82402
+F1 score - std: 0.00381
+
+Train time: 0.128393
+Test time: 0.035319
+Train energy: 76940086.400000
+Test energy: 9455749.800000
+
+
+
+2024-06-03 19:04:02.650976
+KNN - Adult
+
+Log Loss - mean: 0.43902
+Log Loss - std: 0.00937
+AUC - mean: 0.86508
+AUC - std: 0.00252
+Accuracy - mean: 0.82227
+Accuracy - std: 0.00502
+F1 score - mean: 0.82227
+F1 score - std: 0.00502
+
+Train time: 0.100944
+Test time: 0.059448
+
+Best Parameters: {'n_neighbors': 25}
+
+
+Train energy: 24686716.400000
+Test energy: 214178187.000000
+
+
+
+2024-06-03 19:07:00.330877
+VIME - Adult
+
+Log Loss - mean: 0.37646
+Log Loss - std: 0.01009
+AUC - mean: 0.88839
+AUC - std: 0.01042
+Accuracy - mean: 0.83020
+Accuracy - std: 0.01023
+F1 score - mean: 0.83020
+F1 score - std: 0.01023
+
+Train time: 27.169299
+Test time: 0.048616
+
+Best Parameters: {'p_m': 0.113, 'K': 15, 'alpha': 9.83, 'beta': 0.313}
+
+
+Train energy: 2147910785.400000
+Test energy: 8386099.000000
+
+
+
+2024-06-03 19:07:39.929434
+MLP - Adult
+
+Log Loss - mean: 0.35268
+Log Loss - std: 0.00517
+AUC - mean: 0.88582
+AUC - std: 0.00496
+Accuracy - mean: 0.83526
+Accuracy - std: 0.00355
+F1 score - mean: 0.83526
+F1 score - std: 0.00355
+
+Train time: 1.985310
+Test time: 0.040639
+
+Best Parameters: {'hidden_dim': 47, 'n_layers': 4, 'learning_rate': 0.00084}
+
+
+Train energy: 172739694.400000
+Test energy: 7788273.400000
+
+
+
+2024-06-03 19:07:50.595964
+DecisionTree - Adult
+
+Log Loss - mean: 0.31607
+Log Loss - std: 0.01271
+AUC - mean: 0.91030
+AUC - std: 0.00433
+Accuracy - mean: 0.85667
+Accuracy - std: 0.00574
+F1 score - mean: 0.85667
+F1 score - std: 0.00574
+
+Train time: 0.126992
+Test time: 0.036024
+
+Best Parameters: {'max_depth': 8}
+
+
+Train energy: 32490969.200000
+Test energy: 4148500.000000
+
+
+
+2024-06-03 19:07:59.100859
+RandomForest - CaliforniaHousing
+
+MSE - mean: 0.29997
+MSE - std: 0.01300
+R2 - mean: 0.77458
+R2 - std: 0.00940
+
+Train time: 0.734965
+Test time: 0.009073
+
+Best Parameters: {'max_depth': 12, 'n_estimators': 7}
+
+
+Train energy: 12209917.200000
+Test energy: 950925.400000
+
+
+
+2024-06-03 19:08:02.486922
+LinearModel - CaliforniaHousing
+
+MSE - mean: 0.60942
+MSE - std: 0.10282
+R2 - mean: 0.54065
+R2 - std: 0.08608
+
+Train time: 0.020429
+Test time: 0.006036
+Train energy: 35000765.000000
+Test energy: 1438997.800000
+
+
+
+2024-06-03 19:08:19.685233
+KNN - CaliforniaHousing
+
+MSE - mean: 0.42372
+MSE - std: 0.02026
+R2 - mean: 0.68181
+R2 - std: 0.00819
+
+Train time: 0.037905
+Test time: 0.032829
+
+Best Parameters: {'n_neighbors': 11}
+
+
+Train energy: 18140981.200000
+Test energy: 56260879.000000
+
+
+
+2024-06-03 19:09:24.105912
+VIME - CaliforniaHousing
+
+MSE - mean: 0.48133
+MSE - std: 0.04173
+R2 - mean: 0.63884
+R2 - std: 0.02395
+
+Train time: 8.664049
+Test time: 0.033455
+
+Best Parameters: {'p_m': 0.825, 'K': 5, 'alpha': 9.26, 'beta': 0.104}
+
+
+Train energy: 718905972.400000
+Test energy: 6974640.200000
+
+
+
+2024-06-03 19:09:34.927456
+MLP - CaliforniaHousing
+
+MSE - mean: 0.39618
+MSE - std: 0.01883
+R2 - mean: 0.70247
+R2 - std: 0.00853
+
+Train time: 1.199738
+Test time: 0.024587
+
+Best Parameters: {'hidden_dim': 68, 'n_layers': 3, 'learning_rate': 0.0009}
+
+
+Train energy: 113148672.600000
+Test energy: 6224874.000000
+
+
+
+2024-06-03 19:09:39.513115
+DecisionTree - CaliforniaHousing
+
+MSE - mean: 0.30141
+MSE - std: 0.01453
+R2 - mean: 0.77346
+R2 - std: 0.01149
+
+Train time: 0.022897
+Test time: 0.007348
+
+Best Parameters: {'max_depth': 10}
+
+
+Train energy: 29225438.000000
+Test energy: 793137.600000
+
+
+
+2024-06-03 19:10:30.265632
+RandomForest - Covertype
+
+Log Loss - mean: 0.57344
+Log Loss - std: 0.00758
+AUC - mean: 0.96147
+AUC - std: 0.00076
+Accuracy - mean: 0.77958
+Accuracy - std: 0.00169
+F1 score - mean: 0.77080
+F1 score - std: 0.00207
+
+Train time: 43.379335
+Test time: 0.524655
+
+Best Parameters: {'max_depth': 12, 'n_estimators': 48}
+
+
+Train energy: 180498292.800000
+Test energy: 8184158.600000
+
+
+
+2024-06-03 19:11:53.028420
+LinearModel - Covertype
+
+Log Loss - mean: 0.62988
+Log Loss - std: 0.00085
+AUC - mean: 0.92817
+AUC - std: 0.00025
+Accuracy - mean: 0.72431
+Accuracy - std: 0.00053
+F1 score - mean: 0.71410
+F1 score - std: 0.00048
+
+Train time: 0.186704
+Test time: 0.088195
+Train energy: 2332162572.000000
+Test energy: 36606644.600000
+
+
+
+2024-06-03 19:13:03.730499
+KNN - Covertype
+
+Log Loss - mean: 0.78164
+Log Loss - std: 0.00819
+AUC - mean: 0.90485
+AUC - std: 0.00135
+Accuracy - mean: 0.70291
+Accuracy - std: 0.00141
+F1 score - mean: 0.68727
+F1 score - std: 0.00288
+
+Train time: 0.078268
+Test time: 0.143553
+
+Best Parameters: {'n_neighbors': 41}
+
+
+Train energy: 29511460.400000
+Test energy: 843836889.800000
+
+
+
+2024-06-03 20:32:27.791843
+VIME - Covertype
+
+Log Loss - mean: 2.29357
+Log Loss - std: 0.47682
+AUC - mean: 0.65913
+AUC - std: 0.02837
+Accuracy - mean: 0.79242
+Accuracy - std: 0.02435
+F1 score - mean: 0.75706
+F1 score - std: 0.03855
+
+Train time: 933.083904
+Test time: 0.696419
+
+Best Parameters: {'p_m': 0.112, 'K': 20, 'alpha': 2.75, 'beta': 3.24}
+
+
+Train energy: 16986136434.799999
+Test energy: 65181229.200000
+
+
+

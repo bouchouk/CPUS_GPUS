@@ -1,0 +1,66 @@
+0
+
+
+----------------------------------------------------------------------------
+Training LinearModel with config/covertype.yml in env sklearn
+
+WARNING:root:imports error 
+ You need to install pymongo>=3.9.0 in order to use MongoOutput 
+/home/houssam.bouchouk/.conda/envs/sklearn/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/home/houssam.bouchouk/.conda/envs/sklearn/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/home/houssam.bouchouk/.conda/envs/sklearn/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/home/houssam.bouchouk/.conda/envs/sklearn/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+/home/houssam.bouchouk/.conda/envs/sklearn/lib/python3.12/site-packages/sklearn/linear_model/_logistic.py:469: ConvergenceWarning: lbfgs failed to converge (status=1):
+STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
+
+Increase the number of iterations (max_iter) or scale the data as shown in:
+    https://scikit-learn.org/stable/modules/preprocessing.html
+Please also refer to the documentation for alternative solver options:
+    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
+  n_iter_i = _check_optimize_result(
+Namespace(config='config/covertype.yml', model_name='LinearModel', dataset='Covertype', objective='classification', use_gpu=False, gpu_ids=[0, 1], data_parallel=True, optimize_hyperparameters=False, n_trials=2, direction='minimize', num_splits=5, shuffle=True, seed=221, scale=True, target_encode=True, one_hot_encode=False, batch_size=128, val_batch_size=256, early_stopping_rounds=20, epochs=3, logging_period=100, num_features=54, num_classes=7, cat_idx=None, cat_dims=None)
+Train model with given hyperparameters
+Loading dataset Covertype...
+Dataset loaded!
+(581012, 54)
+Having 7 classes as target.
+Scaling the data...
+{'Log Loss - mean': 0.6300147782503553, 'Log Loss - std': 0.0, 'AUC - mean': 0.9284395514021369, 'AUC - std': 0.0, 'Accuracy - mean': 0.7239572128086194, 'Accuracy - std': 0.0, 'F1 score - mean': 0.7136436057408173, 'F1 score - std': 0.0}
+{'Log Loss - mean': 0.6292564469362292, 'Log Loss - std': 0.000758331314126226, 'AUC - mean': 0.9285118383032357, 'AUC - std': 7.228690109883917e-05, 'Accuracy - mean': 0.724486459041505, 'Accuracy - std': 0.0005292462328855829, 'F1 score - mean': 0.7141769073732271, 'F1 score - std': 0.0005333016324098327}
+{'Log Loss - mean': 0.6295093456629157, 'Log Loss - std': 0.0007150476347131982, 'AUC - mean': 0.9283537138431459, 'AUC - std': 0.0002312796729885384, 'Accuracy - mean': 0.7245502114911445, 'Accuracy - std': 0.00044143304477478536, 'F1 score - mean': 0.7142342183633259, 'F1 score - std': 0.00044291781020054324}
+{'Log Loss - mean': 0.6299208068725339, 'Log Loss - std': 0.0009441243673336328, 'AUC - mean': 0.9282665737249249, 'AUC - std': 0.00025079456924734234, 'Accuracy - mean': 0.7242572223952297, 'Accuracy - std': 0.0006353543741403664, 'F1 score - mean': 0.7140136291943009, 'F1 score - std': 0.0005413971595955027}
+{'Log Loss - mean': 0.6299164527830593, 'Log Loss - std': 0.0008444954050645373, 'AUC - mean': 0.9281875880449976, 'AUC - std': 0.0002743597698380078, 'Accuracy - mean': 0.7242569852964353, 'Accuracy - std': 0.000568278425998023, 'F1 score - mean': 0.7140666300296334, 'F1 score - std': 0.0004957066286809602}
+Results: {'Log Loss - mean': 0.6299164527830593, 'Log Loss - std': 0.0008444954050645373, 'AUC - mean': 0.9281875880449976, 'AUC - std': 0.0002743597698380078, 'Accuracy - mean': 0.7242569852964353, 'Accuracy - std': 0.000568278425998023, 'F1 score - mean': 0.7140666300296334, 'F1 score - std': 0.0004957066286809602}
+Train time: 15.104501235399999
+Inference time: 0.030988196599999896
+Finished cross validation
+{'Log Loss - mean': 0.6299164527830593, 'Log Loss - std': 0.0008444954050645373, 'AUC - mean': 0.9281875880449976, 'AUC - std': 0.0002743597698380078, 'Accuracy - mean': 0.7242569852964353, 'Accuracy - std': 0.000568278425998023, 'F1 score - mean': 0.7140666300296334, 'F1 score - std': 0.0004957066286809602}
+(15.104501235399999, 0.030988196599999896)

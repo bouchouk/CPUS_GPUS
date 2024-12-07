@@ -1,0 +1,34 @@
+4
+
+
+----------------------------------------------------------------------------
+Training XGBoost with config/covertype.yml in env gbdt
+
+Namespace(config='config/covertype.yml', model_name='XGBoost', dataset='Covertype', objective='classification', use_gpu=False, gpu_ids=[0, 1], data_parallel=True, optimize_hyperparameters=False, n_trials=2, direction='minimize', num_splits=5, shuffle=True, seed=221, scale=True, target_encode=True, one_hot_encode=False, batch_size=128, val_batch_size=256, early_stopping_rounds=20, epochs=3, logging_period=100, num_features=54, num_classes=7, cat_idx=None, cat_dims=None)
+Train model with given hyperparameters
+Loading dataset Covertype...
+Dataset loaded!
+(581012, 54)
+Having 7 classes as target.
+Scaling the data...
+[0]	eval-mlogloss:1.71754
+[2]	eval-mlogloss:1.40194
+{'Log Loss - mean': 1.4019363561458549, 'Log Loss - std': 0.0, 'AUC - mean': 0.9776904091847058, 'AUC - std': 0.0, 'Accuracy - mean': 0.868893229951034, 'Accuracy - std': 0.0, 'F1 score - mean': 0.8672329303791926, 'F1 score - std': 0.0}
+[0]	eval-mlogloss:1.71724
+[2]	eval-mlogloss:1.40147
+{'Log Loss - mean': 1.4017032275745585, 'Log Loss - std': 0.00023312857129642595, 'AUC - mean': 0.9769441523566008, 'AUC - std': 0.0007462568281050297, 'Accuracy - mean': 0.8689147440255416, 'Accuracy - std': 2.1514074507511527e-05, 'F1 score - mean': 0.8673398291542876, 'F1 score - std': 0.00010689877509506562}
+[0]	eval-mlogloss:1.71704
+[2]	eval-mlogloss:1.40078
+{'Log Loss - mean': 1.4013956966681456, 'Log Loss - std': 0.0004747453394205147, 'AUC - mean': 0.9771948854696518, 'AUC - std': 0.0007049825224473335, 'Accuracy - mean': 0.8687178710937619, 'Accuracy - std': 0.0002789739643819595, 'F1 score - mean': 0.8671432594959688, 'F1 score - std': 0.0002913717440334098}
+[0]	eval-mlogloss:1.71695
+[2]	eval-mlogloss:1.40240
+{'Log Loss - mean': 1.401646185751512, 'Log Loss - std': 0.0005977220889619366, 'AUC - mean': 0.977217434063244, 'AUC - std': 0.0006117806673441905, 'Accuracy - mean': 0.868387080623638, 'Accuracy - std': 0.0006218013026493801, 'F1 score - mean': 0.866842398895864, 'F1 score - std': 0.000578985683762579}
+[0]	eval-mlogloss:1.71710
+[2]	eval-mlogloss:1.40129
+{'Log Loss - mean': 1.4015740665402954, 'Log Loss - std': 0.000553734664810158, 'AUC - mean': 0.9773940467096234, 'AUC - std': 0.0006512976089264312, 'Accuracy - mean': 0.8686825737431574, 'Accuracy - std': 0.0008115258607799183, 'F1 score - mean': 0.8671336766594822, 'F1 score - std': 0.000779455245614062}
+Results: {'Log Loss - mean': 1.4015740665402954, 'Log Loss - std': 0.000553734664810158, 'AUC - mean': 0.9773940467096234, 'AUC - std': 0.0006512976089264312, 'Accuracy - mean': 0.8686825737431574, 'Accuracy - std': 0.0008115258607799183, 'F1 score - mean': 0.8671336766594822, 'F1 score - std': 0.000779455245614062}
+Train time: 3.5884421711999996
+Inference time: 0.20126706580000137
+Finished cross validation
+{'Log Loss - mean': 1.4015740665402954, 'Log Loss - std': 0.000553734664810158, 'AUC - mean': 0.9773940467096234, 'AUC - std': 0.0006512976089264312, 'Accuracy - mean': 0.8686825737431574, 'Accuracy - std': 0.0008115258607799183, 'F1 score - mean': 0.8671336766594822, 'F1 score - std': 0.000779455245614062}
+(3.5884421711999996, 0.20126706580000137)

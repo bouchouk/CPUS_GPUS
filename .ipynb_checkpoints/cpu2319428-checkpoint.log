@@ -1,0 +1,40 @@
+
+CommandNotFoundError: Your shell has not been properly configured to use 'conda activate'.
+To initialize your shell, run
+
+    $ conda init <SHELL_NAME>
+
+Currently supported shells are:
+  - bash
+  - fish
+  - tcsh
+  - xonsh
+  - zsh
+  - powershell
+
+See 'conda init --help' for more information and options.
+
+IMPORTANT: You may need to close and restart your shell after running 'conda init'.
+
+
+
+Command to create ssh tunnel:
+ssh -N -f -L 8898:slurm-compute-h24b8-u13-svn4:8898 houssam.bouchouk@toubkal.hpc.um6p.ma
+
+[I 12:44:26.754 LabApp] Writing notebook server cookie secret to /home/houssam.bouchouk/.local/share/jupyter/runtime/notebook_cookie_secret
+[I 12:44:27.268 LabApp] JupyterLab extension loaded from /srv/software/easybuild/software/Anaconda3/2020.11/lib/python3.8/site-packages/jupyterlab
+[I 12:44:27.268 LabApp] JupyterLab application directory is /srv/software/easybuild/software/Anaconda3/2020.11/share/jupyter/lab
+[I 12:44:27.271 LabApp] Serving notebooks from local directory: /srv/lustre01/project/manapy-um6p-st-msda-1wabcjwe938/users/houssam.bouchouk
+[I 12:44:27.271 LabApp] Jupyter Notebook 6.1.4 is running at:
+[I 12:44:27.271 LabApp] http://slurm-compute-h24b8-u13-svn4:8898/?token=9a7466f93be542bfef90921a4b049df8f69c4eb23abbbcc2
+[I 12:44:27.271 LabApp]  or http://127.0.0.1:8898/?token=9a7466f93be542bfef90921a4b049df8f69c4eb23abbbcc2
+[I 12:44:27.271 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 12:44:27.278 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///home/houssam.bouchouk/.local/share/jupyter/runtime/nbserver-56514-open.html
+    Or copy and paste one of these URLs:
+        http://slurm-compute-h24b8-u13-svn4:8898/?token=9a7466f93be542bfef90921a4b049df8f69c4eb23abbbcc2
+     or http://127.0.0.1:8898/?token=9a7466f93be542bfef90921a4b049df8f69c4eb23abbbcc2
+[I 12:46:26.313 LabApp] 302 GET /?token=9a7466f93be542bfef90921a4b049df8f69c4eb23abbbcc2 (10.43.1.5) 0.46ms
+[W 12:46:28.891 LabApp] Could not determine jupyterlab build status without nodejs

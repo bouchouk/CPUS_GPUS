@@ -1,0 +1,24 @@
+12
+
+
+----------------------------------------------------------------------------
+Training  with config/covertype.yml in env torch
+
+WARNING:root:imports error 
+ You need to install pymongo>=3.9.0 in order to use MongoOutput 
+Namespace(config='config/covertype.yml', model_name='', dataset='Covertype', objective='classification', use_gpu=False, gpu_ids=[0, 1], data_parallel=True, optimize_hyperparameters=False, n_trials=2, direction='minimize', num_splits=5, shuffle=True, seed=221, scale=True, target_encode=True, one_hot_encode=False, batch_size=128, val_batch_size=256, early_stopping_rounds=20, epochs=3, logging_period=100, num_features=54, num_classes=7, cat_idx=None, cat_dims=None)
+Train model with given hyperparameters
+Loading dataset Covertype...
+Dataset loaded!
+(581012, 54)
+Having 7 classes as target.
+Scaling the data...
+Traceback (most recent call last):
+  File "/srv/lustre01/project/manapy-um6p-st-msda-1wabcjwe938/users/houssam.bouchouk/TabSurvey/train.py", line 154, in <module>
+    main_once(arguments)
+  File "/srv/lustre01/project/manapy-um6p-st-msda-1wabcjwe938/users/houssam.bouchouk/TabSurvey/train.py", line 133, in main_once
+    model_name = str2model(args.model_name)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/srv/lustre01/project/manapy-um6p-st-msda-1wabcjwe938/users/houssam.bouchouk/TabSurvey/models/__init__.py", line 97, in str2model
+    raise NotImplementedError("Model \"" + model + "\" not yet implemented")
+NotImplementedError: Model "" not yet implemented

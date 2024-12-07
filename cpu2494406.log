@@ -1,0 +1,39 @@
+5
+
+
+----------------------------------------------------------------------------
+Training LightGBM with config/covertype.yml in env gbdt
+
+Namespace(config='config/covertype.yml', model_name='LightGBM', dataset='Covertype', objective='classification', use_gpu=False, gpu_ids=[0, 1], data_parallel=True, optimize_hyperparameters=False, n_trials=2, direction='minimize', num_splits=5, shuffle=True, seed=221, scale=True, target_encode=True, one_hot_encode=False, batch_size=128, val_batch_size=256, early_stopping_rounds=20, epochs=3, logging_period=100, num_features=54, num_classes=7, cat_idx=None, cat_dims=None)
+Train model with given hyperparameters
+Loading dataset Covertype...
+Dataset loaded!
+(581012, 54)
+Having 7 classes as target.
+Scaling the data...
+Training until validation scores don't improve for 20 rounds
+Did not meet early stopping. Best iteration is:
+[3]	eval's multi_logloss: 1.01824
+{'Log Loss - mean': 1.0182401546256974, 'Log Loss - std': 0.0, 'AUC - mean': 0.9447506542614053, 'AUC - std': 0.0, 'Accuracy - mean': 0.5070781305129816, 'Accuracy - std': 0.0, 'F1 score - mean': 0.36123155617821806, 'F1 score - std': 0.0}
+Training until validation scores don't improve for 20 rounds
+Did not meet early stopping. Best iteration is:
+[3]	eval's multi_logloss: 1.01784
+{'Log Loss - mean': 1.0180393364183726, 'Log Loss - std': 0.00020081820732464895, 'AUC - mean': 0.9450194412795474, 'AUC - std': 0.000268787018142147, 'Accuracy - mean': 0.5120607901689285, 'Accuracy - std': 0.004982659655946908, 'F1 score - mean': 0.37113429412243165, 'F1 score - std': 0.009902737944213591}
+Training until validation scores don't improve for 20 rounds
+Did not meet early stopping. Best iteration is:
+[3]	eval's multi_logloss: 1.0191
+{'Log Loss - mean': 1.0183920691691029, 'Log Loss - std': 0.0005250962659081212, 'AUC - mean': 0.9458078725214003, 'AUC - std': 0.0011364030771138934, 'Accuracy - mean': 0.5082241151283101, 'Accuracy - std': 0.00678169710072212, 'F1 score - mean': 0.3631367853025777, 'F1 score - std': 0.013903109023109228}
+Training until validation scores don't improve for 20 rounds
+Did not meet early stopping. Best iteration is:
+[3]	eval's multi_logloss: 1.01909
+{'Log Loss - mean': 1.0185661634903875, 'Log Loss - std': 0.0005456382175615693, 'AUC - mean': 0.9459310816832966, 'AUC - std': 0.0010070255498154062, 'Accuracy - mean': 0.5075127275744387, 'Accuracy - std': 0.006000981455550982, 'F1 score - mean': 0.36175328166220977, 'F1 score - std': 0.012276586551239723}
+Training until validation scores don't improve for 20 rounds
+Did not meet early stopping. Best iteration is:
+[3]	eval's multi_logloss: 1.01887
+{'Log Loss - mean': 1.0186260459159355, 'Log Loss - std': 0.0005025141501778938, 'AUC - mean': 0.945848825001659, 'AUC - std': 0.0009156118244545397, 'Accuracy - mean': 0.5106056279210679, 'Accuracy - std': 0.008189844501613685, 'F1 score - mean': 0.36805504954836776, 'F1 score - std': 0.01671588393846138}
+Results: {'Log Loss - mean': 1.0186260459159355, 'Log Loss - std': 0.0005025141501778938, 'AUC - mean': 0.945848825001659, 'AUC - std': 0.0009156118244545397, 'Accuracy - mean': 0.5106056279210679, 'Accuracy - std': 0.008189844501613685, 'F1 score - mean': 0.36805504954836776, 'F1 score - std': 0.01671588393846138}
+Train time: 2.5360030068
+Inference time: 0.10254446219999949
+Finished cross validation
+{'Log Loss - mean': 1.0186260459159355, 'Log Loss - std': 0.0005025141501778938, 'AUC - mean': 0.945848825001659, 'AUC - std': 0.0009156118244545397, 'Accuracy - mean': 0.5106056279210679, 'Accuracy - std': 0.008189844501613685, 'F1 score - mean': 0.36805504954836776, 'F1 score - std': 0.01671588393846138}
+(2.5360030068, 0.10254446219999949)

@@ -1,0 +1,26 @@
+1
+
+
+----------------------------------------------------------------------------
+Training KNN with config/covertype.yml in env sklearn
+
+WARNING:root:imports error 
+ You need to install pymongo>=3.9.0 in order to use MongoOutput 
+Namespace(config='config/covertype.yml', model_name='KNN', dataset='Covertype', objective='classification', use_gpu=False, gpu_ids=[0, 1], data_parallel=True, optimize_hyperparameters=False, n_trials=2, direction='minimize', num_splits=5, shuffle=True, seed=221, scale=True, target_encode=True, one_hot_encode=False, batch_size=128, val_batch_size=256, early_stopping_rounds=20, epochs=3, logging_period=100, num_features=54, num_classes=7, cat_idx=None, cat_dims=None)
+Train model with given hyperparameters
+Loading dataset Covertype...
+Dataset loaded!
+(581012, 54)
+Having 7 classes as target.
+Scaling the data...
+{'Log Loss - mean': 0.8324126409561423, 'Log Loss - std': 0.0, 'AUC - mean': 0.8973649743844353, 'AUC - std': 0.0, 'Accuracy - mean': 0.6980886896207499, 'Accuracy - std': 0.0, 'F1 score - mean': 0.6862418313313634, 'F1 score - std': 0.0}
+{'Log Loss - mean': 0.8252651388999712, 'Log Loss - std': 0.007147502056171151, 'AUC - mean': 0.9019356104839739, 'AUC - std': 0.004570636099538561, 'Accuracy - mean': 0.7013287092415859, 'Accuracy - std': 0.0032400196208359766, 'F1 score - mean': 0.6889264087130138, 'F1 score - std': 0.002684577381650455}
+{'Log Loss - mean': 0.8158940512286604, 'Log Loss - std': 0.014480760524989767, 'AUC - mean': 0.9019841899560103, 'AUC - std': 0.003732541069183751, 'Accuracy - mean': 0.7009879271802021, 'Accuracy - std': 0.0026890053159095957, 'F1 score - mean': 0.687847815310993, 'F1 score - std': 0.00267046149553687}
+{'Log Loss - mean': 0.8150309497862391, 'Log Loss - std': 0.012629495292223888, 'AUC - mean': 0.9018103292529891, 'AUC - std': 0.00324647189376754, 'Accuracy - mean': 0.7018480691868073, 'Accuracy - std': 0.002764524372531952, 'F1 score - mean': 0.6883861789145014, 'F1 score - std': 0.0024935977137674373}
+{'Log Loss - mean': 0.8161550093530459, 'Log Loss - std': 0.011517697717337568, 'AUC - mean': 0.9018617417296182, 'AUC - std': 0.0029055527488983358, 'Accuracy - mean': 0.7018151104844693, 'Accuracy - std': 0.0024735442404165238, 'F1 score - mean': 0.6880081831141391, 'F1 score - std': 0.0023549834281478637}
+Results: {'Log Loss - mean': 0.8161550093530459, 'Log Loss - std': 0.011517697717337568, 'AUC - mean': 0.9018617417296182, 'AUC - std': 0.0029055527488983358, 'Accuracy - mean': 0.7018151104844693, 'Accuracy - std': 0.0024735442404165238, 'F1 score - mean': 0.6880081831141391, 'F1 score - std': 0.0023549834281478637}
+Train time: 0.024839147600001166
+Inference time: 8.3392710662
+Finished cross validation
+{'Log Loss - mean': 0.8161550093530459, 'Log Loss - std': 0.011517697717337568, 'AUC - mean': 0.9018617417296182, 'AUC - std': 0.0029055527488983358, 'Accuracy - mean': 0.7018151104844693, 'Accuracy - std': 0.0024735442404165238, 'F1 score - mean': 0.6880081831141391, 'F1 score - std': 0.0023549834281478637}
+(0.024839147600001166, 8.3392710662)

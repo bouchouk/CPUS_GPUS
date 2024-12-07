@@ -1,0 +1,34 @@
+16
+
+
+----------------------------------------------------------------------------
+Training  with config/adult.yml in env tensorflow
+
+Traceback (most recent call last):
+  File "train.py", line 10, in <module>
+    from utils.energieTracker import EnergyTracker
+  File "/srv/lustre01/project/manapy-um6p-st-msda-1wabcjwe938/users/houssam.bouchouk/TabSurvey/utils/energieTracker.py", line 1, in <module>
+    import pyRAPL
+ModuleNotFoundError: No module named 'pyRAPL'
+
+
+----------------------------------------------------------------------------
+Training  with config/california_housing.yml in env tensorflow
+
+Traceback (most recent call last):
+  File "train.py", line 10, in <module>
+    from utils.energieTracker import EnergyTracker
+  File "/srv/lustre01/project/manapy-um6p-st-msda-1wabcjwe938/users/houssam.bouchouk/TabSurvey/utils/energieTracker.py", line 1, in <module>
+    import pyRAPL
+ModuleNotFoundError: No module named 'pyRAPL'
+
+
+----------------------------------------------------------------------------
+Training  with config/covertype.yml in env tensorflow
+
+Traceback (most recent call last):
+  File "train.py", line 10, in <module>
+    from utils.energieTracker import EnergyTracker
+  File "/srv/lustre01/project/manapy-um6p-st-msda-1wabcjwe938/users/houssam.bouchouk/TabSurvey/utils/energieTracker.py", line 1, in <module>
+    import pyRAPL
+ModuleNotFoundError: No module named 'pyRAPL'
